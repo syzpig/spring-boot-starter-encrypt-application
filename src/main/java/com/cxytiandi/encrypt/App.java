@@ -12,7 +12,7 @@ import com.cxytiandi.encrypt.anno.EnableEncrypt;
  *
  */
 @SpringBootApplication
-@EnableEncrypt
+@EnableEncrypt  //在启动类上增加@EnableEncrypt注解开启加解密操作
 public class App {
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
